@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    android:layout_margin="15dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job companyname"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_margin="15dp"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:id="@+id/alljobpostcompanyname"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_margin="15dp"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:id="@+id/alljobposttitle"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:text="31july2019"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/black"
+            android:id="@+id/alljobpostdate"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:id="@+id/job_email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="description"
+            android:id="@+id/alljobpostdescription"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:maxLines="3"
+            android:layout_margin="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="skills"
+            android:id="@+id/alljobpostskills"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:maxLines="1"
+            android:layout_margin="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="salary"
+            android:id="@+id/alljobpostsalary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
